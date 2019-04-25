@@ -1,11 +1,8 @@
 #!groovy
 
 node {
-	checkout()	
-	
-	
-	slackStartJob()
-	
+	checkout()		
+	slackStartJob()	
 
 	/* feature branch */
 	if ( env.BRANCH_NAME != 'master' ) {
