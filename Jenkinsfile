@@ -12,7 +12,7 @@ node {
 		userApproval()
 		branchCleanup()
 		msgbranchCleanup()
-    }
+        }
  
 	/* master branch dev-qa-prod */
 	if ( env.BRANCH_NAME == 'master' ) {
