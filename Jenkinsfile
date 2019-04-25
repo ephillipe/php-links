@@ -2,6 +2,7 @@
 
 node {
 	checkout()
+	
 	slackStartJob()
 
 	/* feature branch */
