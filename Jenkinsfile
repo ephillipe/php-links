@@ -1,8 +1,7 @@
 #!groovy
 
 node {
-	checkout()
-	
+	checkout()	
 	slackStartJob()
 
 	/* feature branch */
