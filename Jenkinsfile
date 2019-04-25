@@ -131,7 +131,7 @@ def userApproval3 () {
 	stage 'userApproval'
 	try {
 		sh './slack-hook.sh'
-		input message: 'Is this version ready ?', id: 'input1', submitter: 'admin'
+		input message: 'Is this version ready ?', id: 'input1'
 	} catch (err) {
 		//slackSend channel: 'aristides', color: '#1e602f', message: ":goberserk: - Pipeline Aborted"
 		error ("Aborted Here2") 
