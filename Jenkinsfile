@@ -22,7 +22,7 @@ node {
 		promoteQA()
 		userApproval3()
 		promotePROD()
-		slackFinishedJob()
+		/*slackFinishedJob()*/
 	}
 }
 
