@@ -3,6 +3,7 @@
 node {
 	checkout()	
 	
+	
 	slackStartJob()
 	
 
